@@ -1,0 +1,56 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.local/
+.sagemaker_sql_editor_api_cache/
+.virtual_documents/
+.jupyter/
+.cache/
+.aws/
+.ipython/
+chat*
+.bashrc
+.gitconfig
+user-default*
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+*.csv
+*.pkl
+*.parquet
+data/
+datasets/
+
+# Models
+*.h5
+*.pkl
+*.joblib
+models/
+
+# Logs
+*.log
+logs/
+
+# Misc
+.env
+.ipynb
